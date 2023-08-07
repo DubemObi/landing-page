@@ -51,6 +51,20 @@ section {
 p {
   text-align: center;
 }
+.content {
+  display: flex;
+  gap: 50px;
+}
+.icon {
+  margin-top: 25px;
+  height: 80px;
+}
+
+.icon i {
+  font-size: 3rem;
+  width: 60px;
+  color: orangered;
+}
 
 form input {
   margin: 0 auto;
@@ -181,5 +195,8 @@ footer a {
   #nav-bar a {
     text-align: center;
     display: block;
+  }
+  .icon {
+    display: none;
   }
 }
